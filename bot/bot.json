@@ -1,0 +1,14 @@
+[
+    {
+        "input": "hallo",
+        "res":[ "Hallo", "Guten Tag", "Wie gehts?"]
+    },
+    {
+        "input": "wie gehts",
+        "res": ["Mir gehts gut", "Gut, Danke"]
+    },
+    {
+        "input": "",
+        "res": ["Bla"]
+    }
+]

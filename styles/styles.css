@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.messageInputContainer {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    background: #e4e4e4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: fantasy;
+    color: black;
+}
+
+.messageInputContainer>input[type="text"] {
+    grid-area: 1 / 1 / 1 / 5;
+    background-color: #fafafa;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+}
+.messageInputContainer>.btnSend{
+    text-align: center;
+    background: #599fc0;
+    padding: 7px;
+    border-radius: 10px;
+}
+.messageInputContainer>input[type="text"]:focus{
+    border: 1px solid #599fc0;
+    box-shadow: -1px 1px 3px #599fc0;
+}
